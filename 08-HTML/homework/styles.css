@@ -1,12 +1,24 @@
 html{
-    background: grey;
+    background-image: url('background.jpg');
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    
 }
+.divClass{
+    border: red 1px solid ;
+   
+}
+
 #thirdDiv{
     width: 600px;
     height: 500px;
     background: white;
     padding: 50px;
     border: red 1px solid ;
+     
+   
 }
 #spanId{
     font-size: 18px;
